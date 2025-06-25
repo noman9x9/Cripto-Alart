@@ -1,0 +1,17 @@
+name: crypto_price_alert_app
+description: A simple crypto alert app with toggles and custom thresholds
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.4
+  flutter_local_notifications: ^15.1.1
+  shared_preferences: ^2.0.15
+
+flutter:
+  uses-material-design: true
